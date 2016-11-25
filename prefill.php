@@ -4,13 +4,13 @@ define('COL_HELP', 1);
 define('COL_DEFAULT', 2);
 
 $fields = [
-    'author_name' =>            ['Your name',             '',                                                ''],
-    'author_github_username' => ['Your Github username',  '<username> in https://github.com/username',       ''],
-    'author_email' =>           ['Your email address',    '',                                                ''],
-    'author_twitter' =>         ['Your twitter username', '',                                                '@{author_github_username}'],
-    'author_website' =>         ['Your website',          '',                                                'https://github.com/{author_github_username}'],
+    'author_name' =>            ['Your name',             'Diego Nicolas Alvarez',                                                ''],
+    'author_github_username' => ['Your Github username',  '<username> in https://github.com/diegonalvarez',       ''],
+    'author_email' =>           ['Your email address',    'diegolavarez17@gmail.com',                                                ''],
+    'author_twitter' =>         ['Your twitter username', 'diegonalvarez',                                                '@{diegonalvarez}'],
+    'author_website' =>         ['Your website',          'http://diegonalvarez.github.io/',                                                'http://diegonalvarez.github.io/'],
 
-    'package_vendor' =>         ['Package vendor',        '<vendor> in https://github.com/vendor/package',   '{author_github_username}'],
+    'package_vendor' =>         ['Package vendor',        '<vendor> in https://github.com/vendor/package',   '{diegonalvarez}'],
     'package_name' =>           ['Package name',          '<package> in https://github.com/vendor/package',  ''],
     'package_description' =>    ['Package very short description',   '',                                     ''],
 
